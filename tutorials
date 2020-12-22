@@ -1,0 +1,86 @@
+Git
+	download and install from https://git-scm.com/downloads
+
+git clone <url>
+	takes a repository and downloads it to the computer
+
+git add <filename>
+	tells git that I want to add a file for the next commit
+
+git add *
+	to add everything in the repository
+	
+git commit
+	tells the repository that I want to zave a znapshot of the changes that have been made to files that I added using git add
+	to run it we use:
+		git commit -m "message, usually description of changes made and name of the author"		used for commiting a single file
+	or:		
+git commit -am "message"
+	commits all of the files that have been changed
+		
+git status
+	is going to tell us what is currently happening inside our repository
+	
+git push
+	changes get pushed to the server repository
+	
+git pull
+	takes that changes from the server repository and pulls them to my computer
+	
+	Merge Conflicts: when two people change the same part of the code and they try to sync their work
+
+git log 
+	shows every commit with its commit patch, the author of the changes and its date
+	
+git reset
+	will take the current state of the repository and revert it back to another state
+	
+	git reset --hard <commit>
+						
+	git reset --hard origin/master
+			version of my repository which is currently on the server
+			
+	Branching: way of working on different parts of the repository at the same time
+	
+git branch 
+	tells me what branch I am currently on and what branches exist in my repository
+
+git checkout -b <name>
+	creates a new branch and switches to it
+	
+git checkout <name>
+	switches to an existing branch
+	
+git merge <name>
+	merges the named branch with the branch I am currently in
+	
+git config user.name "name"
+	sets your name for the repository you are working at
+	
+git config --global user.name "name"
+	sets your username for every repository on your computer
+
+git config --global user.email "email address"
+	sets email address for every repository in you computer
+	
+git config --global user.email
+	to confirm that you set the email correctly
+	
+git config user.email "email address"
+	sets the email for the repository you are working at
+	
+git config user.email
+	to confirm that you set the email correctly
+	
+
+
+
+
+	
+	
+
+
+	
+
+
+
